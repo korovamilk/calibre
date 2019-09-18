@@ -70,11 +70,12 @@ class LaRepubblica(BasicNewsRecipe):
         dict(name='div', attrs={
              'class': ['bottom-mobile', 'adv adv-middle-inline']}),
         dict(name='div', attrs={
-             'id': ['rssdiv', 'blocco', 'fb-like-head', 'sidebar']}),
+             'id': ['rssdiv', 'blocco', 'fb-like-head', 'sidebar', 'latest-subscription-message']}),
         dict(name='div', attrs={
              'class': ['utility', 'fb-like-button', 'archive-button']}),
         dict(name='div', attrs={'class': 'generalbox'}),
-        dict(name='ul', attrs={'id': 'hystory'})
+        dict(name='ul', attrs={'id': 'hystory'}),
+        dict(name='aside', attrs={'class': ['tags', 'mixed-related']})
     ]
 
     feeds = [
